@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -7,32 +6,32 @@ body{
     color: white;
     background-color: #4a154b;
     font-family: 'Poppins', sans-serif;
+    height: 5000px;
+} 
+.search{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
     
 }
-nav{
-    width: 100vw;
-    height: 100px;
-    background-color: #4a154b;
+.left{
     display: flex;
-    justify-content: space-around;
-
-}
-div>img{
-    height: 100px;
-    width: auto;
-}
-nav>div{
-    display: flex;
-    justify-content: space-around;
+    position: relative;
     align-items: center;
+    padding: 20px;
+    left: 130px;
+    top: -90px;
 }
-h4,h3{
-    margin-right: 25px;
+.right{
+    display: flex;
+    position: relative;
+    left: 900px;
+    top: -160px;
+    
 }
-div>div>img{
-    height: 30px;
-    width: auto;
-    margin-right: 20px;
+h4{
+    padding: 20px;
 }
 button{
     width: 150px;
@@ -44,16 +43,26 @@ button{
     border-radius: 5px;
     font-weight: bold;
     font-size: 17px;
-
+    top: 5px;
+    
 }
-div~button{
+#john{
+    left: 10px;
     background-color: white;
     color: #4a154b;
     font-weight: bold;
+    top: 20px;
 }
-h4+h4{
-    writing-mode: vertical-lr;
+#logo{
+    position: relative;
+    top: 10px; 
+    align-items: start;
+    /
+    
+    
 }
-nav>div>div>{
-    display: flex;
+.sign{
+    position: relative;
+    top: -10px;
+
 }
